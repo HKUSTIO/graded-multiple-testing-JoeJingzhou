@@ -1,0 +1,13 @@
+.venv/
+.uv-cache/
+__pycache__/
+.pytest_cache/
+pytest-cache-files-*/
+*.pyc
+
+output/*.csv
+output/*.json
+cleaned/*.csv
+report/.quarto/
+report/*.html
+report/*.quarto_ipynb

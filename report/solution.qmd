@@ -1,0 +1,30 @@
+---
+title: "Multiple Testing: FWER and FDR Assignment"
+format:
+  html:
+    embed-resources: true
+---
+
+This report documents your implementation of multiple-testing analysis for FWER and FDR control.
+
+Run `python scripts/run_pipeline.py` from the project root. The pipeline must first map `input` to `cleaned` and then map `cleaned` to `output`. Use `output/results.json` to populate the following tables.
+
+## 2. FWER control
+
+| method | estimated_fwer |
+|---|---:|
+| uncorrected | |
+| bonferroni | |
+| holm | |
+
+## 3. FDR and power
+
+| method | estimated_fdr | estimated_power |
+|---|---:|---:|
+| uncorrected | | |
+| benjamini_hochberg | | |
+| benjamini_yekutieli | | |
+
+## 4. Brief interpretation
+
+FWER corrections reduce false family-level discoveries under the complete null. FDR procedures target expected false-discovery share and usually preserve more power than strict family-wise controls.
